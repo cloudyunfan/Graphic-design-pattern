@@ -1,0 +1,2 @@
+SafeFrame需要继承Frame类，Java不支持多继承，不能同时继承Frame类和Context类
+不过，如果另外编写一个Context类的子类，并将它的实例保存在SafeFrame类的字段中，那么通过将处理委托给这个实例是可以实现习题中的需求的
